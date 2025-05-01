@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Markato gabaya</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markato.et</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <div class="logo">
+                <h1>Markato gabaya</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#account"><i class="fas fa-user"></i> Account</a></li>
+                    <li><a href="dist/index.html"><i class="fas fa-sign-in-alt"></i> Log In</a></li>
+                    <li><a href="#withdraw"><i class="fas fa-arrow-circle-down"></i> Withdraw</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="main-content">
+        <h2>coming soon</h2>
+        <div class="miner-cards">
+            <!-- Starter Miner -->
+            <div class="miner-card" id="starter-miner">
+                <h3>20 ቀን</h3>
+                <p>ዋጋ: 1500 birr</p>
+                <p>ትርፍ: 2250 birr</p>
+                <p>Earns 7.5% daily</p> 
+               <button class="purchase-btn"> <a href="./waiting.html"> Purchase</button> </a>
+              
+            </div>
+            <!-- Bronze Miner -->
+            <div class="miner-card" id="bronze-miner">
+                <h3>30 ቀን</h3>
+                <p>ዋጋ: 2000 ቢር</p>
+                <p>ትርፍ: 6000 ቢር</p>
+                <p>Earns 10% daily</p>
+                <button class="purchase-btn"> <a href="./waiting.html">Purchase</button>
+                </a> </div>
+            <!-- Silver Miner -->
+            <div class="miner-card" id="silver-miner">
+                <h3>55 ቀን</h3>
+                <p>ዋጋ: 3000 ቢር</p>
+                <p>ትርፍ: 16,500 birr</p>
+                <p>Earns 10% daily</p>
+                <button class="purchase-btn" onclick="purchaseMiner('silver', 60, 0.09)">Purchase</button>
+            </div>
+            <!-- Gold Miner -->
+            <div class="miner-card" id="gold-miner">
+                <h3>70 ቀን</h3>
+                <p>ዋጋ: 5000 ቢር</p>
+                <p>ትርፍ: 35,000 ቢር</p>
+                <p>Earns 10% daily</p>
+                <button class="purchase-btn" onclick="purchaseMiner('gold', 90, 0.095)">Purchase</button>
+            </a> 
+            </div>
+            <!-- Platinum Miner -->
+            <div class="miner-card" id="platinum-miner">
+                <h3>100 ቀን</h3>
+                <p>ዋጋ: 10,000 ቢር</p>
+                <p>ትርፍ: 100,000 ቢር</p>
+                <p>Earns 10% daily</p>
+                <button class="purchase-btn" onclick="purchaseMiner('platinum', 120, 0.1)">Purchase</button>
+            </div>
+           <!-- Bronze Miner -->
+            <div class="miner-card" id="bronze-miner">
+                <h3>130 ቀን</h3>
+                <p>ዋጋ: 20,000 ቢር</p>
+                <p>ትርፍ: 260,000 ቢር</p>
+                <p>Earns 10% daily</p>
+                <button class="purchase-btn" onclick="purchaseMiner('bronze', 30, 0.085)">Purchase</button>
+            </div>
+           <!-- Bronze Miner -->
+            <div class="miner-card" id="bronze-miner">
+                <h3>150 ቀን</h3>
+                <p>ዋጋ: 50,000 ቢር</p>
+                <p>ትርፍ: 375,000 ቢር</p>
+                <p>Earns 5% daily</p>
+                <button class="purchase-btn" onclick="purchaseMiner('bronze', 30, 0.085)">Purchase</button>
+            </div>
+           <!-- Bronze Miner -->
+            <div class="miner-card" id="bronze-miner">
+                <h3>170 ቀን</h3>
+                <p>ዋጋ: 80,000 ቢር</p>
+                <p>ትርፍ: 1,360,000 ቢር</p>
+                <p>Earns 10% daily</p>
+                <button class="purchase-btn" onclick="purchaseMiner('bronze', 30, 0.085)">Purchase</button>
+            </div>
+          
+        </div>
+    </section>
+
+    <section class="miner-info" id="miner-info">
+        <h4>Your Miner Info</h4>
+        <p id="miner-details">Ethiopian Markato machine</p>
+        <div id="miner-status"></div>
+    </section>
+
+    <footer>
+        <p><h6>All rights reserved &copy; 2025 Markato.</h6></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
