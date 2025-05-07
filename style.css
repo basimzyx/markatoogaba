@@ -19,8 +19,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
-    padding: 5px 30px;
+    background-color: #336;
+    padding: 3px 30px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     position: sticky;
     top: 0;
@@ -29,7 +29,10 @@ body {
 
 .top-bar .logo h1 {
     color: #fff;
-    font-size: 25px;
+    font-size: 20px;
+    height: 0px;
+    width: 110px;
+    
 }
 
 .top-bar nav ul {
@@ -73,6 +76,26 @@ body {
     column-gap: 1px;
     
 }
+
+
+
+
+.toprobotlogo {
+    width: 50px;
+    position: absolute;
+    top: 10%;
+    left: 8%;
+    filter: drop-shadow(1px 1px 5px #555); }
+
+.level1 { 
+    width: 37px;
+    position: relative;
+    left: 7%;
+    top: 10%;
+    left:1%;
+    
+}
+
 
 .miner-card {
     background-color: #fff;
@@ -146,7 +169,7 @@ body {
 
 /* Footer */
 footer {
-    background-color: #333;
+    background-color: #336;
     color: #fff;
     text-align: center;
     padding: 1x;
