@@ -5,14 +5,32 @@
     box-sizing: border-box 5px;
 }
 
+/* Add this to your existing CSS */
+
 /* Body and overall page layout */
 body {
     font-family: 'Arial', sans-serif;
-    background: #f0f4f8;
+    background: linear-gradient(120deg, #1a2a6c, #b21f1f, #fdbb2d);
+    background-size: 300% 300%; /* To allow animation over a large gradient */
+    animation: gradientBackground 10s ease infinite; /* Add animation to the background */
     color: #333;
     padding: 0;
     margin: 0;
 }
+
+/* Keyframes for the background animation */
+@keyframes gradientBackground {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
 
 /* Header and top bar */
 .top-bar {
