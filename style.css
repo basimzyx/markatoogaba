@@ -82,6 +82,7 @@ body {
 .toprobotlogo {
     width: 50px;
     position: absolute;
+    box-shadow: none;
 
 .level1 { 
     width: 37px;
