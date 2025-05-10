@@ -79,6 +79,8 @@ body {
     width: 50px;
     position: absolute;
     box-shadow: 0%;
+    top: -5px;
+    left: 2px;
 }
 
 .level1 { 
