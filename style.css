@@ -75,7 +75,7 @@ body {
     column-gap: 1px;
     
 }
-.toprobotlogo {
+.topgiflogo {
     width: 50px;
     position: absolute;
     box-shadow: 0%;
@@ -89,7 +89,7 @@ body {
     position: absolute;
     box-shadow: 0%;
     top: 1px;
-    left: 24px;
+    left: 30px;
 }
 .level1 { 
     width: 37px;
