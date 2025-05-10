@@ -75,15 +75,12 @@ body {
     column-gap: 1px;
     
 }
-
-
-
-
 .toprobotlogo {
     width: 50px;
     position: absolute;
-    box-shadow: none;
+    box-shadow: 0%;
 }
+
 .level1 { 
     width: 37px;
     position: relative;
