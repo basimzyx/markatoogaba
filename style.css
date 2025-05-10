@@ -79,10 +79,17 @@ body {
     width: 50px;
     position: absolute;
     box-shadow: 0%;
-    top: -6px;
+    top: -3px;
     left: 2px;
 }
 
+
+.toplogo {
+    width: 50px;
+    position: absolute;
+    box-shadow: 0%;
+    top: -4px;
+    left: 2px;
 .level1 { 
     width: 37px;
     position: relative;
