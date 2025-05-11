@@ -2,7 +2,7 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>Markato gabaya</title>
+  <title>Markato Online Job</title>
   <link rel="icon" href="Image/Favicon3.ico" type="image/x-icon"> 
   <link rel="stylesheet" href="./style.css">
 
@@ -22,17 +22,16 @@
     <header>
         <div class="top-bar">
             <div class="logo">
-                <h1 align="right">MARKATO</h1>
+                <h1 align="right">ጋባያ  2025</h1>
               <img src="Image/giffimage/Markatogi.gif" class="topgiflogo">
             </div>
           <div>
               <img src="Image/markatoimage.png" class="toplogo">
-                
-            </div>
+              </div>
             <nav>
                 <ul>
                     <li><a href="#account"><i class="fas fa-user"></i> Account</a></li>
-                    <li><a href="dist/index.html"><i class="fas fa-sign-in-alt"></i> Log In</a></li>
+                    <li><a href="dist/index.html"><i class="fas fa-sign-in-alt"></i>Register</a></li>
                     <li><a href="#withdraw"><i class="fas fa-arrow-circle-down"></i> Withdraw</a></li>
                 </ul>
             </nav>
@@ -40,7 +39,7 @@
     </header>
 
     <section class="main-content">
-        <h2>coming soon</h2>
+        <h3>coming soon</h3>
         <div class="miner-cards">
             <!-- Starter Miner -->
             <div class="miner-card" id="starter-miner">
@@ -49,7 +48,7 @@
                 <p>ዋጋ: 1500 ቢር</p>
                 <p>ትርፍ: 2250 ቢር</p>
                 <p>Earns 7.5% daily</p> 
-               <button class="purchase-btn"> <a href="./waiting.html"> Purchase</button> </a>
+               <button class="purchase-btn" onclick="purchaseMiner('gold', 90, 0.095)"> <a href="./waiting.html"> Purchase</button> </a>
               
             </div>
             <!-- Bronze Miner -->
@@ -59,7 +58,7 @@
                 <p>ዋጋ: 2000 ቢር</p>
                 <p>ትርፍ: 6000 ቢር</p>
                 <p>Earns 10% daily</p>
-                <button class="purchase-btn"> <a href="./waiting.html">Purchase</button>
+                <button class="purchase-btn" onclick="purchaseMiner('gold', 90, 0.095)"> <a href="./waiting.html">Purchase</button>
                 </a> </div>
             <!-- Silver Miner -->
             <div class="miner-card" id="silver-miner">
@@ -116,7 +115,7 @@
                 <p>Earns 10% daily</p>
                 <button class="purchase-btn" onclick="purchaseMiner('bronze', 30, 0.085)">Purchase</button>
             </div>
-          
+      </div>
         </div>
     </section>
 
